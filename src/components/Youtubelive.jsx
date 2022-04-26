@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import styled from "styled-components";
+import image from "../assets/card.jpeg";
 
 const StyledIframeWrapper = styled.div`
   position: relative;
@@ -72,9 +73,9 @@ function Youtubelive() {
       ></StyledIframe>
     </StyledIframeWrapper>
   ) : (
-    <div className="m-auto h-full w-full">
-      <image src="../assets/background.png" className="w-full h-full" />
-    </div>
+    <>
+      <image src={image} className="h-full w-full" />
+    </>
   );
 }
 
