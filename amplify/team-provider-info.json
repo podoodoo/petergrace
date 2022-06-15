@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-petergrace-dev-41417-authRole",
+      "UnauthRoleArn": "arn:aws:iam::002601123784:role/amplify-petergrace-dev-41417-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::002601123784:role/amplify-petergrace-dev-41417-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-petergrace-dev-41417-deployment",
+      "UnauthRoleName": "amplify-petergrace-dev-41417-unauthRole",
+      "StackName": "amplify-petergrace-dev-41417",
+      "StackId": "arn:aws:cloudformation:us-west-2:002601123784:stack/amplify-petergrace-dev-41417/4d68f460-ec9c-11ec-9e47-02da09fdb6a1",
+      "AmplifyAppId": "d165sww1p86g0a"
+    }
+  }
+}
