@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import { createRsvp } from "../graphql/mutations";
+// import { createRsvp } from "../graphql/mutations";
 import { API } from "aws-amplify";
 import { useState } from "react";
 
@@ -14,7 +14,7 @@ function Rsvp() {
     console.log(data);
     
     await API.graphql({
-      query: createRsvp,
+      query: () => {}, //createRsvp,
       variables: { input: formData },
     });
   }
