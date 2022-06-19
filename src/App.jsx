@@ -18,7 +18,7 @@ function App() {
             <Rsvp />
           </section>
           <footer className="h-8 bg-red-100 flex justify-center pt-2">
-            <div className="h-2 text-xs">©Peter & Grace 2022</div>
+            <div className="h-2 text-xs">©happilyeverbaes 2022</div>
           </footer>
         </div>
       </main>
