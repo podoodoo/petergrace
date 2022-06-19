@@ -10,9 +10,7 @@ function Rsvp() {
   const { register, handleSubmit } = useForm();
   const { isSubmitting } = handleSubmit;
 
-  async function onSubmit(data) {
-    console.log(data);
-    
+  async function onSubmit(data) {    
     await API.graphql({
       query: createRsvp,
       variables: { input: formData },
