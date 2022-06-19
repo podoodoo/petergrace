@@ -17,6 +17,9 @@ function App() {
           <section className="h-screen w-full">
             <Rsvp />
           </section>
+          <footer className="h-8 bg-red-100 flex justify-center pt-2">
+            <div className="h-2 text-xs">©Peter & Grace 2022</div>
+          </footer>
         </div>
       </main>
     </>

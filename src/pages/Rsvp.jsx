@@ -6,11 +6,10 @@ import { useState } from "react";
 const initialFormData = { name: "", going: "", food: "" };
 
 function Rsvp() {
-  const [ formData, setFormData ] = useState(initialFormData);
-  const { register, handleSubmit } = useForm();
-  const { isSubmitting } = handleSubmit;
+  const [formData, setFormData] = useState(initialFormData);
+  const { register, handleSubmit, errors, formState } = useForm(formData);
 
-  async function onSubmit(data) {    
+  async function onSubmit(data) {
     await API.graphql({
       query: createRsvp,
       variables: { input: formData },
@@ -109,9 +108,13 @@ function Rsvp() {
                 <button
                   type="submit"
                   className="px-6 py-2.5 font-medium text-xs text-white leading-tight bg-black hover:bg-gray-700 hover:shadow-lg"
-                  disabled={isSubmitting}
+                  disabled={formState.isSubmitting || formState.isSubmitted}
                 >
-                  {isSubmitting ? <span className="spinner-border spinner-border-sm mr-1"></span> : "Submit" }
+                  {formState.isSubmitted ? (
+                    "👍🏿"
+                  ) : (
+                    <>{formState.isSubmitting ? "Submitting..." : "Submit"}</>
+                  )}
                 </button>
               </form>
             </div>
