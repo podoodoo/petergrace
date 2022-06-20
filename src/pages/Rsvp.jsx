@@ -59,7 +59,7 @@ function Rsvp() {
                         {...register("going", { required: true })}
                         type="radio"
                         value="yes"
-                        className="sr-only peer ml-10 mb-2"
+                        className="sr-only peer ml-10 mb-1"
                         onChange={(e) =>
                           setFormData({ ...formData, going: e.target.value })
                         }
@@ -74,7 +74,7 @@ function Rsvp() {
                         {...register("going", { required: true })}
                         type="radio"
                         value="no"
-                        className="sr-only peer ml-10 mb-2"
+                        className="sr-only peer ml-10 mb-1"
                         onChange={(e) =>
                           setFormData({ ...formData, going: e.target.value })
                         }
@@ -93,7 +93,7 @@ function Rsvp() {
                         {...register("food")}
                         type="radio"
                         value="land"
-                        className="sr-only peer ml-10 mb-2"
+                        className="sr-only peer ml-10 mb-1"
                         onChange={(e) =>
                           setFormData({ ...formData, food: e.target.value })
                         }
@@ -108,7 +108,7 @@ function Rsvp() {
                         {...register("food")}
                         type="radio"
                         value="sea"
-                        className="sr-only peer ml-10 mb-2"
+                        className="sr-only peer ml-10 mb-1"
                         onChange={(e) =>
                           setFormData({ ...formData, food: e.target.value })
                         }
@@ -123,7 +123,7 @@ function Rsvp() {
                         {...register("food")}
                         type="radio"
                         value="kids"
-                        className="sr-only peer ml-10 mb-2"
+                        className="sr-only peer ml-10 mb-1"
                         onChange={(e) =>
                           setFormData({ ...formData, food: e.target.value })
                         }
