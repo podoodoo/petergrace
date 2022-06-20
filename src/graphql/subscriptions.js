@@ -8,6 +8,7 @@ export const onCreateRsvp = /* GraphQL */ `
       name
       going
       food
+      notes
       createdAt
       updatedAt
     }
@@ -20,6 +21,7 @@ export const onUpdateRsvp = /* GraphQL */ `
       name
       going
       food
+      notes
       createdAt
       updatedAt
     }
@@ -32,6 +34,7 @@ export const onDeleteRsvp = /* GraphQL */ `
       name
       going
       food
+      notes
       createdAt
       updatedAt
     }

@@ -8,6 +8,7 @@ export const getRsvp = /* GraphQL */ `
       name
       going
       food
+      notes
       createdAt
       updatedAt
     }
@@ -25,6 +26,7 @@ export const listRsvps = /* GraphQL */ `
         name
         going
         food
+        notes
         createdAt
         updatedAt
       }

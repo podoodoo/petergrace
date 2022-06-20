@@ -7,4 +7,5 @@ type Rsvp @model {
   name: String!
   going: String!
   food: String
+  notes: String
 }
