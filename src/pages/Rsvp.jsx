@@ -52,7 +52,7 @@ function Rsvp() {
                     />
                   </div>
 
-                  <h2 className="mb-2">will be there</h2>
+                  <h2 className="mb-2 text-bold">will be there</h2>
                   <div className="mb-5">
                     <label className="block cursor-pointer ml-16 mb-3">
                       <input
@@ -86,7 +86,7 @@ function Rsvp() {
                     </label>
                   </div>
 
-                  <h2 className="mb-2">food selection</h2>
+                  <h2 className="mb-2 text-bold">food selection</h2>
                   <div className="mb-10 md:mb-4">
                     <label className="block cursor-pointer ml-16 mb-3">
                       <input
@@ -162,17 +162,17 @@ function Rsvp() {
           </div>
 
           <div className="mt-10 md:ml-10 p-5 border-spacing-2 border-2 md:w-1/3">
-            <h5 className="text-sm mb-2 underline underline-offset-1">Menu</h5>
+            <h5 className="text-sm text-bold mb-2 underline underline-offset-1">Menu</h5>
             <p className="mb-2 text-xs">
               All dishes come with Smoked Salmon & Coconut Clam Chowder
             </p>
             <p className="mb-2 text-xs">
-              <span className="font-bold mr-2 underline underline-offset-1">land:</span> Herb Breaded
+              <span className="mr-2 underline underline-offset-1">land:</span> Herb Breaded
               Berkshire Pork Chop, Creamed Kale & Cabbage, Potato Roesti,
               Calvados Apple Demi
             </p>
             <p className="mb-2 text-xs">
-              <span className="font-bold mr-2 underline underline-offset-1">sea:</span> Orange Chipotle
+              <span className="mr-2 underline underline-offset-1">sea:</span> Orange Chipotle
               Pacific Cod, Soft Polenta, Green Asparagus, Mango Corn Salsa
             </p>
           </div>
