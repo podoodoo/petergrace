@@ -10,13 +10,14 @@ function Home() {
         <img
           src={pic7}
           alt="7.jpg"
-          className="md:w-3/4 md:object-none md:object-[45%_75%]" // -270px_-750px
+          className="p-5 md:w-3/4 md:object-none md:object-[45%_75%]" // -270px_-750px
         />
       </div>
       <h2 className="text-center mt-10 mx-5 px-5 text-2xl md:mx-20 md:mt-0">
         "Love is patient, love is kind..."
       </h2>
       <h4 className="text-center mx-5 px-5">- 1 Corinthians 13:4</h4>
+
     </div>
   );
 }
