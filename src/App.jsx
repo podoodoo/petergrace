@@ -11,7 +11,7 @@ function App() {
           <section className="h-screen w-full">
             <Home />
           </section>
-          <section className="w-full mb-24">
+          <section className="w-full mb-24 mt-10 md:mt-0">
             <Info />
           </section>
           <section className="w-full flex align-center">
