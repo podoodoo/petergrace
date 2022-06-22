@@ -171,9 +171,12 @@ function Rsvp() {
               Berkshire Pork Chop, Creamed Kale & Cabbage, Potato Roesti,
               Calvados Apple Demi
             </p>
-            <p className="mb-2 text-xs">
+            <p className="mb-4 text-xs">
               <span className="mr-2 underline underline-offset-1">sea:</span> Orange Chipotle
               Pacific Cod, Soft Polenta, Green Asparagus, Mango Corn Salsa
+            </p>
+            <p className="text-sm text-bold underline underline-offset-1">
+              Please indicate any dietary restrictions in Additional Notes
             </p>
           </div>
         </div>
