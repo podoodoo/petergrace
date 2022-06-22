@@ -14,7 +14,7 @@ function App() {
           <section className="w-full mb-24 mt-10 md:mt-0">
             <Info />
           </section>
-          <section className="w-full flex align-center">
+          <section className="w-full mb-40 flex align-center">
             <Rsvp />
           </section>
           <footer className="h-8 bg-red-100 flex justify-center pt-2">
