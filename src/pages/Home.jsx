@@ -1,14 +1,15 @@
-import pic7 from "../assets/pics/7.jpg";
+import ringjpg from "../assets/pics/ring.jpg";
+//import * as images from "../assets/pics/landing/*.jpg";
 
 function Home() {
   return (
     <div className="flex flex-col w-full h-full align-center">
-      <h1 className="w-full text-center text-4xl pt-16 md:pt-12 md:text-6xl">
+      <h1 className="w-full text-center text-4xl pt-16 md:pt-12 md:text-5xl">
         Peter & Grace
       </h1>
       <div className="flex mx-auto justify-center align-middle overflow-hidden m-5 md:m-12 md:h-2/3 md:w-7/8">
         <img
-          src={pic7}
+          src={ringjpg}
           alt="7.jpg"
           className="p-5 md:w-3/4 md:object-none md:object-[45%_75%]" // -270px_-750px
         />

@@ -1,7 +1,7 @@
 function Info() {
   return (
     <div className="flex flex-col w-full align-center justify-center sm:pb-64 md:pb-24">
-      <h2 className="w-full text-center text-4xl mb-8 md:text-6xl md:pt-40">
+      <h2 className="w-full text-center text-4xl mb-8 md:text-5xl md:pt-40">
         Wedding Day
       </h2>
       <h3 className="text-sm text-center mx-5 py-5 px-8 md:px-48 md:mx-20">
