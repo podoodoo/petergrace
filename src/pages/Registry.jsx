@@ -1,11 +1,11 @@
 function Registry() {
   return (
     <section>
-      <div className="flex flex-col w-3/4 justify-center mx-auto">
-        <h2 className="w-full text-center text-2xl mb-8 md:text-4xl">
+      <div className="flex flex-col w-3/4 justify-center mx-auto border-y border-black md:w-1/3 md:mb-10">
+        <h2 className="w-full text-center text-2xl mb-4 mt-8 md:text-4xl">
           Registry
         </h2>
-        <div className="flex md:w-1/2 justify-center mx-auto">
+        <div className="flex justify-center mx-auto">
           <div className="grid grid-rows-2 grid-cols-2 gap-5 justify-center align-middle items-center h-60 w-60 md:h-80 md:w-80">
             <a href="https://www.amazon.com/wedding/peter-bae-grace-kim--july-2022/registry/1CQ4YQLGT9T6A">
               <img
