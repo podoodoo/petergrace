@@ -5,7 +5,7 @@ function Registry() {
         <h2 className="w-full text-center text-2xl mb-4 mt-8 md:text-4xl">
           Registry
         </h2>
-        <div className="flex justify-center mx-auto">
+        <div className="flex w-full justify-center mx-auto">
           <div className="grid grid-rows-2 grid-cols-2 gap-5 justify-center align-middle items-center h-60 w-60 md:h-80 md:w-80">
             <a href="https://www.amazon.com/wedding/peter-bae-grace-kim--july-2022/registry/1CQ4YQLGT9T6A">
               <img
