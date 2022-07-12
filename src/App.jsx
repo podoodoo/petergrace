@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Rsvp from "./pages/Rsvp";
 import Info from "./pages/Info";
 import Registry from "./pages/Registry";
+import Pictures from "./pages/Pictures";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
           </section>
           <section className="w-full mb-10 mt-10 md:mt-0">
             <Info />
+          </section>
+          <section className="w-full mb-10 mt-10 md:mt-0">
+            <Pictures />
           </section>
           <section className="w-full mb-24 mt-10 md:mt-0">
             <Registry />
