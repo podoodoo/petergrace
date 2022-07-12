@@ -1,7 +1,7 @@
 function Pictures() {
   return (
     <section className="flex justify-center w-full mx-auto mb-28 mt-10">
-      <div className="container grid md:grid-rows-2 md:grid-cols-2 gap-5 mx-5 md:mx-60 h-screen">
+      <div className="container grid md:grid-rows-2 md:grid-cols-2 gap-5 mx-5 md:mx-10 h-screen">
         <div className="relative">
           <img
             src={require("../assets/pics/landing/top1.jpg")}
