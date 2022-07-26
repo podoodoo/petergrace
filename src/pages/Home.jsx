@@ -1,4 +1,4 @@
-import ringjpg from "../assets/pics/ring.webp";
+import ringpic from "../assets/pics/ring.webp";
 //import * as images from "../assets/pics/landing/*.jpg";
 
 function Home() {
@@ -26,8 +26,8 @@ function Home() {
           </div>
         ) : (
           <img
-            src={ringjpg}
-            alt="7.jpg"
+            src={ringpic}
+            alt="ring"
             className="p-5 md:w-3/4 md:object-none md:object-[45%_75%]" // -270px_-750px
           />
         )}
