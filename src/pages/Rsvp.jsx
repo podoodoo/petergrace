@@ -19,7 +19,7 @@ function Rsvp() {
   return (
     <>
       <section className="flex container m-auto justify-center items-center">
-        <div className="flex flex-col md:flex-row py-14 px-10 md:py-8 md:px-14 md:max-w-screen-md md:max-h-[600px] w-full justify-center items-center bg-[url('./assets/card.webp')] bg-[rgba(252,242,239,1)] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
+        <div className="flex flex-col md:flex-row py-14 px-10 md:py-8 md:px-14 md:max-w-screen-md md:max-h-[600px] w-full justify-center items-center bg-[url('./assets/card.png')] bg-[rgba(252,242,239,1)] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
           <div className="flex flex-col w-full md:w-1/2 justify-center">
             <div className="inline-block mb-5">
               <h1 className="text-4xl tracking-widest inline">RSVP</h1>

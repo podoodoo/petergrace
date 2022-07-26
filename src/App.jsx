@@ -141,7 +141,7 @@ function App() {
           </motion.div>
         )}
       </AnimatePresence>
-      <main className="bg-[url('./assets/background.webp')] md:bg-[url('./assets/background2.webp')] bg-no-repeat md:bg-cover bg-fixed">
+      <main className="bg-[url('./assets/background.png')] md:bg-[url('./assets/background2.png')] bg-no-repeat md:bg-cover bg-fixed">
         <div className="flex container justify-center align-center m-auto flex-col h-full max-w-7xl drop-shadow-[0_0px_20px_rgba(0,0,0,0.25)] bg-[rgb(254,254,254,0.75)]">
           <section className="w-full h-screen">
             <Home />
