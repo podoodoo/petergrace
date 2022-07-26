@@ -55,6 +55,11 @@ function App() {
   const [isAnimatingGallerie, setIsAnimatingGallerie] = useState(false);
   const [isLandingTime, setIsLandingTime] = useState(true);
 
+  const weddingDate = new Date(1659182400000);
+  const nowDate = new Date().getTime();
+
+  const live = nowDate - weddingDate > 0;
+
   useEffect(() => {
     setTimeout(() => {
       setIsAnimatingGallerie(true);
@@ -82,8 +87,15 @@ function App() {
             transition={{ duration: 2.5 }}
             className="text-2xl md:text-6xl text-center mx-auto"
           >
-            Save the date!<br />
-            July 30, 2022
+            {live ? (
+              <>Thank you for joining us!</>
+            ) : (
+              <>
+                Save the date!
+                <br />
+                July 30, 2022
+              </>
+            )}
           </motion.div>
         </motion.div>
       )}
@@ -129,7 +141,7 @@ function App() {
           </motion.div>
         )}
       </AnimatePresence>
-      <main className="bg-[url('./assets/background.png')] md:bg-[url('./assets/background2.png')] bg-no-repeat md:bg-cover bg-fixed">
+      <main className="bg-[url('./assets/background.webp')] md:bg-[url('./assets/background2.webp')] bg-no-repeat md:bg-cover bg-fixed">
         <div className="flex container justify-center align-center m-auto flex-col h-full max-w-7xl drop-shadow-[0_0px_20px_rgba(0,0,0,0.25)] bg-[rgb(254,254,254,0.75)]">
           <section className="w-full h-screen">
             <Home />

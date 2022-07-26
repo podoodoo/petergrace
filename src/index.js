@@ -10,6 +10,11 @@ import config from './aws-exports';
 Amplify.configure(config);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+
 root.render(
   <React.StrictMode>
     <BrowserRouter>

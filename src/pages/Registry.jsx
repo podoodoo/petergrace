@@ -9,7 +9,7 @@ function Registry() {
           <div className="grid grid-rows-2 grid-cols-2 gap-5 justify-center align-middle items-center h-60 w-60 md:h-80 md:w-80">
             <a href="https://www.amazon.com/wedding/peter-bae-grace-kim--july-2022/registry/1CQ4YQLGT9T6A">
               <img
-                src={require("../assets/pics/logos/amazonus.png")}
+                src={require("../assets/pics/logos/amazonus.webp")}
                 alt="amazonus"
                 className=""
               />
@@ -18,7 +18,7 @@ function Registry() {
               href="https://www.amazon.ca/wedding/share/petergrace2022"
             >
               <img
-                src={require("../assets/pics/logos/amazonca.png")}
+                src={require("../assets/pics/logos/amazonca.webp")}
                 alt="amazonca"
               />
             </a>
@@ -26,7 +26,7 @@ function Registry() {
               href="https://www.crateandbarrel.com/gift-registry/peter-bae-and-grace-kim/r6519905"
             >
               <img
-                src={require("../assets/pics/logos/crate-barrel.png")}
+                src={require("../assets/pics/logos/crate-barrel.webp")}
                 alt="crate-barrel"
               />
             </a>
@@ -34,7 +34,7 @@ function Registry() {
               href="https://www.honeyfund.com/wedding/bae-kim-07-30-2022"
             >
               <img
-                src={require("../assets/pics/logos/honeyfund.png")}
+                src={require("../assets/pics/logos/honeyfund.webp")}
                 alt="honeyfund"
               />
             </a>

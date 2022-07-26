@@ -8,8 +8,9 @@ function Info() {
         Each of us alone is incomplete, together with Christ we are as one in
         this there shall be joy. We, Grace Kim & Peter Bae, invite you to share
         in this joy on{" "}
-        <span className="text-2xl text-bold block my-3">July 30th, 2022</span> when we will
-        exchange marriage vows and ask God's blessing on our union at <span className="text-lg text-bold">11AM</span>.
+        <span className="text-2xl text-bold block my-3">July 30th, 2022</span>{" "}
+        when we will exchange marriage vows and ask God's blessing on our union
+        at <span className="text-lg text-bold">11AM</span>.
       </h3>
       <div className="flex mx-auto my-4 border-t border-black md:w-1/3 w-1/2 justify-center"></div>
       <h3 className="text-sm text-center mb-16 mx-5 py-5 px-8 md:px-44 md:mx-20">
@@ -17,6 +18,9 @@ function Info() {
         내딛습니다. 하나님의 사랑을 주위에 나누며 살아가는 가정이 되도록 축복과
         격려로 함께하여 주시면 감사하겠습니다.
       </h3>
+      <div className="m-auto py-2 px-4 mb-20 cursor-pointer border border-black text-sm">
+        <a href="https://youtu.be/8M_DRzAHsuM">YouTube link</a>
+      </div>
       <div className="text-center justify-center mx-5 md:mx-20">
         <h3 className="text-2xl mb-4">Ceremony</h3>
         <h5 className="text-bold">Legacy Church</h5>
