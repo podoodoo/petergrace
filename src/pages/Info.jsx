@@ -19,7 +19,7 @@ function Info() {
         격려로 함께하여 주시면 감사하겠습니다.
       </h3>
       <div className="m-auto py-2 px-4 mb-20 cursor-pointer border border-black text-sm">
-        <a href="https://youtu.be/8M_DRzAHsuM">YouTube link</a>
+        <a href="https://youtu.be/I4Hl9OP8-p4">YouTube link</a>
       </div>
       <div className="text-center justify-center mx-5 md:mx-20">
         <h3 className="text-2xl mb-4">Ceremony</h3>
