@@ -5,11 +5,19 @@
 ### Stack used:
 
 React
+
 TailwindCSS
+
 AWS Amplify
+
 AWS CloudFormation
+
 AWS DynamoDB
 
+
+
 Framer Motion
+
 React Router
+
 React Hook Form
